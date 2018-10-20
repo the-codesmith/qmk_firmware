@@ -22,6 +22,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #pragma once
 
 /* Use I2C or Serial, not both */
-
 #define USE_SERIAL
 // #define USE_I2C
+
+/* Space Cadet Shift Configuration */
+#define LSPO_KEY KC_9
+#define RSPC_KEY KC_0
