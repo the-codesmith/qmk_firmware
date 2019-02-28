@@ -34,3 +34,17 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     _______, _______, _______, _______, _______,          KC_DELETE,XXXXXXX,_______, _______, _______, _______, _______
   )
 };
+
+/*
+void led_set_user(uint8_t usb_led) {
+#ifdef  RGBLIGHT_ENABLE
+  if (usb_led & (1 << USB_LED_CAPS_LOCK)) {
+    rgblight_mode(19);
+  }
+  else {
+    rgblight_mode(1);
+  }
+#endif //  RGBLIGHT_ENABLE
+
+}
+*/
